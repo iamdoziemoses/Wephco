@@ -9,7 +9,7 @@
 
     /* Typography */
     --font-family: "Poppins", sans-serif;
-    --font-family2: "Circular", cursive;
+    --font-family2: "Roboto",sans-serif;
     --big-weight: 700;
     --big-medium: 500;
     --big-small: 300;
@@ -105,7 +105,7 @@ ul{
 }
 
 /* media querries */
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 980px){
     .navbar-toggler-icon{
         font-size: 3rem;
     }
@@ -120,7 +120,11 @@ ul{
         margin-left: 30rem;
     }
 }
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 768px) {
+    #header{
+        padding: 1rem 1rem;
+    }
     .navbar-toggler-icon{
         font-size: 2rem;
     }
@@ -188,9 +192,10 @@ ul{
     font-weight: var(--big-medium);
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 980px){
     .home-intro {
-        margin: 10rem 4rem 0 4rem;
+        padding-left: 0;
+        margin: 8rem 4rem 0 4rem;
     }
 
     .home-intro__data-title{
@@ -211,9 +216,10 @@ ul{
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
     .home-intro {
-        margin: 10rem 4rem 0 4rem;
+        padding-left: 0;
+        margin: 8rem 3rem 0 3rem;
     }
     .home-intro__data-title{
         font-size: 2.8rem;
@@ -250,9 +256,19 @@ ul{
     margin: 0 3rem;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 980px) {
     .clientele{
-        margin-top: 100rem;
+        margin-top: 110rem;
+    }
+
+    .clientele__img{
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .clientele{
+        margin-top: 80rem;
     }
 
     .clientele__img{
@@ -261,6 +277,16 @@ ul{
 }
 
 @media screen and (max-width: 600px) {
+    .clientele{
+        margin-top: 70rem;
+    }
+
+    .clientele__img{
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
     .clientele{
         margin-top: 50rem;
     }
@@ -331,9 +357,17 @@ ul{
     font-weight: var(--big-small);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 980px){
     .features{
-        margin-top: 10rem;
+        padding-left: 0;
+        margin: 8rem 3rem 0 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .features{
+        padding-left: 0;
+        margin-top: 8rem 4rem 0 4rem;
     }
 
     .features__title{
@@ -394,9 +428,17 @@ ul{
     margin-top: -2rem;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 980px){
+     .process{
+        padding-left: 0;
+        margin: 8rem 3rem 0 3rem;
+    }
+}
+
+@media screen and (max-width: 768px){
     .process{
-        margin-top: 10rem;
+        padding-left: 0;
+        margin: 8rem 4rem 0 4rem;
     }
 
     .process__title{
@@ -429,6 +471,8 @@ ul{
     color: var(--color-white);
     padding: 3% 2%;
     margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 1px 4px 2px rgba(0, 0, 0, .2);
 }
 
 .testimonials__title{
@@ -466,7 +510,12 @@ ul{
     font-family: var(--font-family2);
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 980px){
+     .testimonials{
+        padding-left: 0;
+        margin-top: 8rem 3rem 0 3rem;
+    }
+
     .testimonials__data1{
         flex-direction: column;
     }
@@ -486,9 +535,10 @@ ul{
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
     .testimonials{
-        margin-top: 10rem;
+        padding-left: 0;
+        margin-top: 8rem 4rem 0 4rem;
     }
 
     .testimonials__data{
@@ -513,7 +563,7 @@ ul{
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 600px){
     .testimonials__data-title{
         width: 24%;
     }
@@ -552,9 +602,17 @@ ul{
     justify-content: space-between;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 980px){
     .footer{
-        margin-top: 10rem;
+        padding-left: 0;
+        margin: 8rem 3rem 0 3rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .footer{
+        padding-left: 0;
+        margin: 8rem 4rem 0 4rem;
     }
     .inline{
         flex-direction: column;
